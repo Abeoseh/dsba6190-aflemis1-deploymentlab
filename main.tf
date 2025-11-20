@@ -18,7 +18,7 @@ locals {
 
 resource "random_integer" "deployment_id_suffix" {
   min = 1
-  max = 99
+  max = 98
 }
 
 // Resource Group
